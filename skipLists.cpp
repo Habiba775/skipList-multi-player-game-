@@ -47,7 +47,6 @@ void insertAfter(Node* insertionPoint, Node* newNode) {
     newNode->right = insertionPoint->right;
     insertionPoint->right = newNode;
 }
-
 // Insert function
 void insert(SkipList& skipList, int value) {
     Node* currentNode = skipList.head;
